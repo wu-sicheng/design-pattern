@@ -4,7 +4,6 @@ package com.wusicheng.e13_factory_method_pattern.nevv;
 import com.wusicheng.e13_factory_method_pattern.nevv.factory.CupFactory;
 import com.wusicheng.e13_factory_method_pattern.nevv.factory.IFactory;
 import com.wusicheng.e13_factory_method_pattern.nevv.factory.LunchBoxFactory;
-import com.wusicheng.e13_factory_method_pattern.old.factory.Factory;
 import com.wusicheng.e13_factory_method_pattern.old.product.BaseProduct;
 
 /**
