@@ -27,8 +27,8 @@ public class Invoker {
 
     public void redoCommand() {
         if(commands.size() > 0) {
-            this.getCommands().get(commands.size()-1).redo();
-            commands.add(this.commands.get(commands.size()-1));
+            commands.get(commands.size()-1).redo();
+            commands.add(commands.get(commands.size()-1));
         } else {
             System.out.println("任务列表当中无任务，不能撤销");
         }
@@ -36,8 +36,8 @@ public class Invoker {
 
     public void undoCommand(){
         if(commands.size() > 0) {
-            this.getCommands().get(commands.size()-1).undo();
-            this.getCommands().remove(commands.size()-1);
+            commands.get(commands.size()-1).undo();
+            commands.remove(commands.size()-1);
         } else {
             System.out.println("没有服务可以撤销");
         }
