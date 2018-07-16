@@ -1,4 +1,4 @@
-package com.wusicheng.e30_memento_pattern.nevv;
+package com.wusicheng.e30_memento_pattern.nevv_write;
 
 /**
  * @author wsc
@@ -20,7 +20,11 @@ public class Main {
         System.out.println(human);
         human.restore(caretaker.getMemento(0));
         System.out.println(human);
+
+        human.restore(new HumanMemento(1,1,1));
+        System.out.println(human);
     }
 }
 //Human{age=2, high=23, weight=23}
 //Human{age=1, high=12, weight=12}
+//Human{age=1, high=1, weight=1}

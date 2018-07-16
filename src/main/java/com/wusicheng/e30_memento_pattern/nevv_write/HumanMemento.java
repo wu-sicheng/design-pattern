@@ -1,4 +1,4 @@
-package com.wusicheng.e30_memento_pattern.nevv;
+package com.wusicheng.e30_memento_pattern.nevv_write;
 
 /**
  * @author wsc
