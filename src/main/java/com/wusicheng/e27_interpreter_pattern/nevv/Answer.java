@@ -23,10 +23,6 @@ public class Answer implements IXiaocheng {
         answer2.put("世界上谁最帅", "世界上吴思成最帅");
     }
 
-
-
-
-
     public Answer(IXiaocheng xiaocheng, String key2) {
         this.xiaocheng = xiaocheng;
         this.key2 = key2;
