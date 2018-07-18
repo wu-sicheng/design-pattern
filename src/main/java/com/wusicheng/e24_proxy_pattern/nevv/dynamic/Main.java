@@ -16,7 +16,7 @@ public class Main {
                 new StationHandler()
                 );
         stationProxy.saleTicket();
-        //代理类：com.sun.proxy.$Proxy0调用：com.wusicheng.e24_proxy_pattern.nevv.dynamic.StationImpl代理方法：saleTicket
+        //代理类：com.sun.proxy.$Proxy0调用：com.wusicheng.e24_proxy_pattern.nevv_write.dynamic.StationImpl代理方法：saleTicket
         //火车站卖出一张车票
         //调用结束
     }
