@@ -3,7 +3,7 @@ package com.wusicheng.e35_state_pattern.nevv;
 /**
  * @author wsc
  * @date 2018/7/24
- * @description
+ * @description 状态
  */
 
 public abstract class State {
